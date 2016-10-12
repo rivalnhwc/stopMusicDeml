@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_stopmusic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="stop music!"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btn_startmusic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/btn_stopmusic"
+        android:layout_alignBottom="@id/btn_stopmusic"
+        android:text="start music!"
+        android:textColor="#ffffff" />
+    <Button
+        android:id="@+id/btn_testrxjava"
+        android:text="text_rxjava"
+        android:textColor="#123456"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_testrxandroid"
+        android:text="test_rxandroid"
+        android:textColor="#654321"
+        android:layout_toRightOf="@id/btn_testrxjava"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
